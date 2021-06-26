@@ -1,0 +1,1 @@
+2.0.24|C:/Users/emodu/Downloads/emscripten/emsdk/upstream/bin|13.0|0x2e6ae679
