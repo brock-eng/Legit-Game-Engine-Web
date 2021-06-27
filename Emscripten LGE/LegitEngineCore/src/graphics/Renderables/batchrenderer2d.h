@@ -415,7 +415,6 @@ namespace legit_engine {
             quadVertices[3] = { position.x + size.x, position.y - size.y, 0, 0 };
          }
 
-
          m_Buffer->vertex = { quadVertices[0].x, quadVertices[0].y, quadVertices[0].z };
          m_Buffer->texCoords = uv[0];
          m_Buffer->color = c;
@@ -447,10 +446,8 @@ namespace legit_engine {
       {
          const std::vector<Vec2>& uv = { {0, 0}, {0, 1}, {1, 1}, {1, 0} };
          float ts = 0.0f;
-         mat4 maskTransform = mat4::identity();
          float mid = 0;
          float ms = 0.0f;
-
 
          Vec2 normal = Vec2(y1 - y0, -(x1 - x0)).normalise() * thickness;
 

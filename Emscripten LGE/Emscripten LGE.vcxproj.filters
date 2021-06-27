@@ -90,6 +90,9 @@
     <ClCompile Include="LegitEngineCore\src\utils\ImGui\imgui_widgets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="circlesandbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="circlesim.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

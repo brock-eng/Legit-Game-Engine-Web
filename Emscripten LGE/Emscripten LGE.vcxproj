@@ -169,6 +169,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="circlesandbox.cpp" />
     <ClCompile Include="circlesim.cpp" />
     <ClCompile Include="LegitEngineCore\src\core\application.cpp" />
     <ClCompile Include="LegitEngineCore\src\defunct\matrix.cpp" />

@@ -48,7 +48,7 @@ namespace legit_engine {
          glGenTextures(1, &m_ID);
          glBindTexture(GL_TEXTURE_2D, m_ID);
 
-         std::cout << m_Width << " " << m_Height << std::endl;
+         std::cout << m_ID << std::endl;
 
          glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
          glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
